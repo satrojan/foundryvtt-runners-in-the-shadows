@@ -1,8 +1,8 @@
 {
   "id": "runners-in-the-shadows",
   "title": "Runners in the Shadows",
-  "description": "Blades in the dark game system.",
-  "version": "5.1.1",
+  "description": "A Forged in the Dark game system.",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": 11,
     "verified": "12.324"
