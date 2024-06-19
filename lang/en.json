@@ -309,10 +309,21 @@
   "BITD.RollAcquireAssetCritical": "Exceptional result.",
   "BITD.RollAcquireAssetSuccess": "Good result.",
   "BITD.RollAcquireAssetPartialSuccess": "Mixed result.",
-  "BITD.RollAcquireAssetFailure": "Bad result."
+  "BITD.RollAcquireAssetFailure": "Bad result.",
   
-  "RITS.SafeHouse": "SafeHouse"
-  "RITS.Fixer": "Fixer"
-  "RITS.Nuyen": "Nuyen"
+  "RITS.SafeHouse": "SafeHouse",
+  "RITS.Fixer": "Fixer",
+  "RITS.Nuyen": "Nuyen",
+  
+  "RITS.Acquaintances": "Acquaintances",
+  "RITS.DangerousFriends": "Dangerous Friends",
+  "RITS.DeadlyFriends": "Deadly Friends",
+  "RITS.CleverFriends": "Clever Friends",
+  "RITS.HandyFriends": "Handy Friends",
+  "RITS.ShadyFriends": "Shady Friends",
+  "RITS.SlyFriends": "Sly Friends",
+  "RITS.ShrewdFriends": "Shrewd Friends",
+  "RITS.StrangeFriends": "Strange Friends",
+  "RITS.1337Friends": "1337 Friends"
 
 }
