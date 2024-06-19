@@ -9,7 +9,7 @@
   },
   "url": "https://github.com/satrojan/foundryvtt-runners-in-the-shadows/",
   "manifest": "https://raw.githubusercontent.com/satrojan/foundryvtt-runners-in-the-dark/dev2/system.json",
-  "download": "https://github.com/satrojan/foundryvtt-runners-in-the-shaows/archive/refs/tags/dev2.zip",
+  "download": "https://github.com/satrojan/foundryvtt-runners-in-the-shaows/archive/refs/heads/dev2.zip",
   "authors": [
     { "name": "megastruktur" },
     { "name": "drewg13" },
