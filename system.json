@@ -131,7 +131,6 @@
       "path": "./packs/crew_abilities.db",
       "type": "Item"
     },
-    {
 	{
       "name": "faction",
       "label": "Factions",
