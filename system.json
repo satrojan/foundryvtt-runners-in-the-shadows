@@ -1,20 +1,21 @@
 {
-  "id": "blades-in-the-dark",
-  "title": "Blades in the Dark",
-  "description": "Blades in the dark game system.",
-  "version": "5.1.1",
+  "id": "runners-in-the-shadows",
+  "title": "Runnerss in the Shadows",
+  "description": "Runners in the Shadows game system.",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": 11,
     "verified": "12.324"
   },
-  "url": "https://github.com/Dez384/foundryvtt-blades-in-the-dark/",
-  "manifest": "https://raw.githubusercontent.com/Dez384/foundryvtt-blades-in-the-dark/master/system.json",
-  "download": "https://github.com/Dez384/foundryvtt-blades-in-the-dark/archive/refs/tags/v.5.1.1.zip",
+  "url": "https://github.com/satrojan/foundryvtt-runners-in-the-shadows/",
+  "manifest": "https://raw.githubusercontent.com/satrojan/foundryvtt-runners-in-the-dark/dev2/system.json",
+  "download": "https://github.com/satrojan/foundryvtt-runners-in-the-shaows/archive/refs/tags/dev2.zip",
   "authors": [
     { "name": "megastruktur" },
     { "name": "drewg13" },
     { "name": "justinross" },
-    { "name": "Dez384" }
+    { "name": "Dez384" },
+	{ "name": "satrojan" }
   ],
   "esmodules": [
     "module/blades.js"
@@ -63,121 +64,87 @@
     {
       "name": "class",
       "label": "Classes",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/classes.db",
       "type": "Item"
     },
     {
       "name": "heritage",
       "label": "Heritages",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/heritages.db",
       "type": "Item"
     },
     {
       "name": "vice",
       "label": "Vices",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/vices.db",
-      "type": "Item"
-    },
-    {
-      "name": "prison",
-      "label": "Prisons",
-      "system": "blades-in-the-dark",
-      "path": "./packs/prison.db",
       "type": "Item"
     },
     {
       "name": "background",
       "label": "Backgrounds",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/backgrounds.db",
       "type": "Item"
     },
     {
       "name": "item",
       "label": "Items",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/items.db",
       "type": "Item"
     },
     {
       "name": "ability",
       "label": "Abilities",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/abilities.db",
       "type": "Item"
     },
     {
       "name": "crew_reputation",
       "label": "Crew Reputation",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/crew_reputation.db",
       "type": "Item"
     },
     {
       "name": "crew_type",
       "label": "Crew Types",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/crew_types.db",
       "type": "Item"
     },
     {
       "name": "crew_upgrade",
       "label": "Crew Upgrades",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/crew_upgrades.db",
       "type": "Item"
     },
     {
       "name": "crew_ability",
       "label": "Crew Abilities",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/crew_abilities.db",
       "type": "Item"
     },
     {
-      "name": "hunting_grounds",
-      "label": "Hunting Grounds",
-      "system": "blades-in-the-dark",
-      "path": "./packs/hunting_grounds.db",
-      "type": "Item"
-    },
 	{
       "name": "faction",
       "label": "Factions",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/factions.db",
       "type": "Item"
     },
     {
       "name": "npc",
       "label": "NPCs",
-      "system": "blades-in-the-dark",
+      "system": "runners-in-the-shadows",
       "path": "./packs/npcs.db",
       "type": "Actor"
-    },
-	{
-      "name": "entanglements",
-      "label": "Entanglements",
-      "system": "blades-in-the-dark",
-      "path": "./packs/entanglements.db",
-      "type": "RollTable"
-    },
-	{
-      "name": "entanglements-journals",
-      "label": "Entanglements Journals",
-      "system": "blades-in-the-dark",
-      "path": "./packs/entanglements-journals.db",
-      "type": "JournalEntry"
-    },
-	{
-      "name": "entanglements-macro",
-      "label": "Entanglements Macro",
-      "system": "blades-in-the-dark",
-      "path": "./packs/entanglements-macro.db",
-      "type": "Macro"
     }
   ],
   "packFolders": [
@@ -189,17 +156,12 @@
     {
       "name": "Crew Options",
       "sorting": "m",
-      "packs": ["crew_type", "crew_ability", "crew_upgrade", "prison", "crew_reputation", "hunting_grounds"]
+      "packs": ["crew_type", "crew_ability", "crew_upgrade", "prison", "crew_reputation"]
 	},
     {
       "name": "Factions & NPCs",
       "sorting": "m",
       "packs": ["faction", "npc"]
-	},
-    {
-      "name": "Entanglements",
-      "sorting": "m",
-      "packs": ["entanglements-macro", "entanglements", "entanglements-journals"]
 	}
   ]
 }
