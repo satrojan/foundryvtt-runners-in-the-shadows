@@ -310,5 +310,9 @@
   "BITD.RollAcquireAssetSuccess": "Good result.",
   "BITD.RollAcquireAssetPartialSuccess": "Mixed result.",
   "BITD.RollAcquireAssetFailure": "Bad result."
+  
+  "RITS.SafeHouse": "SafeHouse"
+  "RITS.Fixer": "Fixer"
+  "RITS.Nuyen": "Nuyen"
 
 }
