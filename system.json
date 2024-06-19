@@ -1,8 +1,8 @@
 {
   "id": "runners-in-the-shadows",
-  "title": "Runnerss in the Shadows",
+  "title": "Runners in the Shadows",
   "description": "Runners in the Shadows game system.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": 11,
     "verified": "12.324"
