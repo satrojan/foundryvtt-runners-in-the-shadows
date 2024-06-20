@@ -324,6 +324,38 @@
   "RITS.SlyFriends": "Sly Friends",
   "RITS.ShrewdFriends": "Shrewd Friends",
   "RITS.StrangeFriends": "Strange Friends",
-  "RITS.1337Friends": "1337 Friends"
+  "RITS.1337Friends": "1337 Friends",
+  
+  "RITS.Trauma": "Trauma",
+  "RITS.Edge": "Edge",
+  
+  "RITS.SkillsIntuition": "Intuition",
+  "RITS.SkillsIntuitionShort": "Intuition",
+  "RITS.SkillsStalk": "Stalk",
+  "RITS.SkillsInterface": "Interface",
+  "RITS.SkillsSurvey": "Survey",
+  "RITS.SkillsEngineer": "Engineer",
+  
+  "RITS.SkillsBody": "Body",
+  "RITS.SkillsBodyShort": "Body",
+  "RITS.SkillsFinesse": "Finesse",
+  "RITS.SkillsProwl": "Prowl",
+  "RITS.SkillsFight": "Fight",
+  "RITS.SkillsWreck": "Wreck",
+
+  "RITS.SkillsWillpower": "Willpower",
+  "RITS.SkillsWillpowerShort": "Willpower",
+  "RITS.SkillsStudy": "Study",
+  "RITS.SkillsCommand": "Command",
+  "RITS.SkillsConsort": "Consort",
+  "RITS.SkillsInfluence": "Influence",
+
+  "RITS.SkillsMystic": "Mystic",
+  "RITS.SkillsMysticShort": "Mystic",
+  "RITS.SkillsAssense": "Assense",
+  "RITS.SkillsAttune": "Attune"  
+
+  
+  
 
 }
