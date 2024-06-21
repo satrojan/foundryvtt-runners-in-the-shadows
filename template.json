@@ -151,7 +151,7 @@
 					"label": "RITS.SkillsAttune",
 					"value": 0,
 					"max": 4
-				}
+				},
 				"assense":{
 					"label": "RITS.SkillsAssense",
 					"value": 0,
