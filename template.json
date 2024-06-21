@@ -16,8 +16,8 @@
       "value": [0],
       "max": 9,
       "max_default": 9,
-      "name_default": "BITD.Stress",
-      "name": "BITD.Stress"
+      "name_default": "RITS.Edge",
+      "name": "RITS.Edge"
     },
     "trauma": {
       "max": 4,
@@ -61,87 +61,104 @@
       "special": 0
     },
     "attributes": {
-        "insight": {
+        "intuition": {
           "exp": 0,
           "exp_max": 6,
-          "label": "BITD.SkillsInsight",
+          "label": "RITS.SkillsIntuition",
           "skills": {
-            "hunt": {
-              "label": "BITD.SkillsHunt",
+            "engineer": {
+              "label": "RITS.SkillsEngineer",
               "value": 0,
               "max": 4
             },
-            "study": {
-              "label": "BITD.SkillsStudy",
+            "interface": {
+              "label": "RITS.SkillsInterface",
+              "value": 0,
+              "max": 4
+            },
+            "stalk": {
+              "label": "RITS.SkillsStalk",
               "value": 0,
               "max": 4
             },
             "survey": {
-              "label": "BITD.SkillsSurvey",
-              "value": 0,
-              "max": 4
-            },
-            "tinker": {
-              "label": "BITD.SkillsTinker",
+              "label": "RITS.SkillsSurvey",
               "value": 0,
               "max": 4
             }
           }
         },
-        "prowess": {
+        "body": {
           "exp": 0,
           "exp_max": 6,
-          "label": "BITD.SkillsProwess",
+          "label": "BITD.SkillsBody",
           "skills": {
+            "fight": {
+              "label": "RITS.SkillsFight",
+              "value": 0,
+              "max": 4
+            },
             "finesse": {
-              "label": "BITD.SkillsFinesse",
+              "label": "RITS.SkillsFinesse",
               "value": 0,
               "max": 4
             },
             "prowl": {
-              "label": "BITD.SkillsProwl",
-              "value": 0,
-              "max": 4
-            },
-            "skirmish": {
-              "label": "BITD.SkillsSkirmish",
+              "label": "RITS.SkillsProwl",
               "value": 0,
               "max": 4
             },
             "wreck": {
-              "label": "BITD.SkillsWreck",
+              "label": "RITS.SkillsWreck",
               "value": 0,
               "max": 4
             }
           }
         },
-        "resolve": {
+        "willpower": {
           "exp": 0,
           "exp_max": 6,
-          "label": "BITD.SkillsResolve",
+          "label": "RITS.SkillsWillpower",
           "skills": {
-            "attune": {
-              "label": "BITD.SkillsAttune",
-              "value": 0,
-              "max": 4
-            },
             "command": {
-              "label": "BITD.SkillsCommand",
+              "label": "RITS.SkillsCommand",
               "value": 0,
               "max": 4
             },
             "consort": {
-              "label": "BITD.SkillsConsort",
+              "label": "RITS.SkillsConsort",
               "value": 0,
               "max": 4
             },
-            "sway": {
-              "label": "BITD.SkillsSway",
+            "influence": {
+              "label": "RITS.SkillsInfluence",
+              "value": 0,
+              "max": 4
+            },
+            "study": {
+              "label": "RITS.SkillsStudy",
               "value": 0,
               "max": 4
             }
           }
-        }
+        },
+		"mystic": {
+			"exp": 0,
+			"exp_max": 6,
+			"label": "RITS.SkillsMystic",
+			"skills": {
+				"attune": {
+					"label": "RITS.SkillsAttune",
+					"value": 0,
+					"max": 4
+				}
+				"assense":{
+					"label": "RITS.SkillsAssense",
+					"value": 0,
+					"max": 4
+				}
+			}
+		}
     }
   },
   "crew": {
@@ -168,7 +185,7 @@
     "acquaintances": [],
     "acquaintances_label": "BITD.Contacts",
     "hunting_grounds": [],
-    "hunting_grounds_label": "BITD.HuntingGrounds"
+    "hunting_grounds_label": "RITS.Fixer"
   },
   "\uD83D\uDD5B clock": {
     "name": "",
@@ -283,18 +300,20 @@
     "templates": ["default", "logic", "activatedEffect"],
     "experience_clues": [],
     "base_skills": {
-      "hunt": [0],
-      "study": [0],
+      "engineer": [0],
+      "interface": [0],
+      "stalk": [0],
       "survey": [0],
-      "tinker": [0],
+      "fight": [0],
       "finesse": [0],
       "prowl": [0],
-      "skirmish": [0],
       "wreck": [0],
-      "attune": [0],
       "command": [0],
       "consort": [0],
-      "sway": [0]
+      "influence": [0],
+      "study": [0],
+	  "attune": [0],
+	  "assense": [0]
     }
   },
   "ability": {
