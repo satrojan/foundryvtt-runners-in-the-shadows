@@ -55,14 +55,15 @@ export class BladesSheet extends ActorSheet {
 
       html += `<input id="select-item-${e._id}" type="${input_type}" name="select_items" value="${e._id}">`;
       html += `<label class="flex-horizontal" for="select-item-${e._id}">`;
-      html += `${game.i18n.localize(e.name)} ${addition_price_load} <i class="tooltip fas fa-question-circle"><span class="tooltiptext">${game.i18n.localize(e.system.description)}</span></i>`;
+      html += `${game.i18n.localize(e.name)} ${addition_price_load} <i class="fas fa-question-circle" data-tooltip="${game.i18n.localize(e.system.description)}" data-tooltip-class="tooltipdisplay"></i>`;
+ //     html += `${game.i18n.localize(e.name)} ${addition_price_load} <i class="tooltip fas fa-question-circle"><span class="tooltiptext">${game.i18n.localize(e.system.description)}</span></i>`;
       html += `</label>`;
     });
 
     html += `</div>`;
 
     let options = {
-      // width: "500"
+    //   width: "500"
     }
 
     let dialog = new Dialog({

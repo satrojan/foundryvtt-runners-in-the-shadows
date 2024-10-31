@@ -30,7 +30,7 @@
     },
     "healing-clock": [0],
     "experience": [0],
-    "experience_max": 8,
+    "experience_max": 10,
     "experience_clues": ["BITD.ClassExpClue3", "BITD.ClassExpClue2"],
     "coins": [0],
     "coins_stashed": [0],
@@ -91,7 +91,7 @@
         "body": {
           "exp": 0,
           "exp_max": 6,
-          "label": "BITD.SkillsBody",
+          "label": "RITS.SkillsBody",
           "skills": {
             "fight": {
               "label": "RITS.SkillsFight",

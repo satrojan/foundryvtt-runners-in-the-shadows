@@ -196,8 +196,8 @@
   "BITD.RollFailurePositionControlled": "You falter. Press on by seizing a <strong>risky</strong> opportunity, or withdraw and try a different approach.",
   "BITD.RollFailurePositionRisky": "Things go badly. You suffer <strong>harm</strong>, a <strong>complication</strong> occurs, you end up in a <strong>desperate</strong> position, you <strong>lose this opportunity</strong>.",
   "BITD.RollFailurePositionDesperate": "It's the worst outcome. You suffer <strong>severe harm</strong>, a <strong>serious complication occurs</strong>, you <strong>lose this opportunity for action</strong>.",
-  "BITD.RollResistance": "You <strong>reduce</strong> or <strong>avoid</strong> the effects of the consequence (GM chooses).<br/>Suffer <strong>{stress} stress</strong>.",
-  "BITD.RollResistanceCritical": "You <strong>reduce</strong> or <strong>avoid</strong> the effects of the consequence (GM chooses).<br/>Clear <strong>1 stress</strong>.",
+  "BITD.RollResistance": "You <strong>reduce</strong> or <strong>avoid</strong> the effects of the consequence (GM chooses).<br/>Suffer <strong>{stress} edges</strong>.",
+  "BITD.RollResistanceCritical": "You <strong>reduce</strong> or <strong>avoid</strong> the effects of the consequence (GM chooses).<br/>Clear <strong>1 edge</strong>.",
 
   "BITD.PositionControlled": "Controlled",
   "BITD.PositionRisky": "Risky",
@@ -284,8 +284,8 @@
   "BITD.AcquireAssetExtra": "To raise the result beyond critical, you may spend <strong>2 coin</strong> per +1 Tier bonus.",
   "BITD.CrewTier": "Crew Tier",
 
-  "BITD.RollVice": "You indulge your vice.<br/>Clear <strong>{clear_stress} stress</strong>.",
-  "BITD.RollViceFailure": "You <strong>overindulge</strong>. Clear <strong>{clear_stress} stress</strong> and choose <strong>one</strong> of the following consequences:",
+  "BITD.RollVice": "You indulge your vice.<br/>Clear <strong>{clear_stress} edges</strong>.",
+  "BITD.RollViceFailure": "You <strong>overindulge</strong>. Clear <strong>{clear_stress} edges</strong> and choose <strong>one</strong> of the following consequences:",
   "BITD.RollViceFailureAttactTrouble": "<strong>Attract Trouble.</strong> Select or roll an additional <strong>entanglement.</strong>",
   "BITD.RollViceFailureBrag": "<strong>Brag</strong> about your exploits. <strong>+2 Heat</strong>",
   "BITD.RollViceFailureLost": "<strong>Lost.</strong> Your character vanishes for a few weeks. Play a different character until this one returns from their bender. When your character returns, they've also healed any harm they had.",

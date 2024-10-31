@@ -1888,6 +1888,8 @@
 .items-to-add input[type=checkbox]:checked + label {
   font-weight: bold;
 }
+
+/* Not used, we use Foundry tootip manager instead for displaying toolip */
 .items-to-add .tooltip .tooltiptext {
   visibility: hidden;
   width: 200px;
@@ -1903,5 +1905,9 @@
   visibility: visible;
 }
 
+/* Styling for Foundry tooltip manager */
+#tooltip.tooltipdisplay{
+  font-family: "Crimson Text", serif;
+}
 
 /*# sourceMappingURL=blades.css.map */

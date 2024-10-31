@@ -293,7 +293,7 @@ export async function simpleRollPopup() {
           <div class="radio-group" style="display:flex;flex-direction:row;justify-content:space-between;">
             <label><input type="radio" id="indulgeVice" name="rollSelection"> ${game.i18n.localize("BITD.IndulgeVice")}</label>
             <span style="width:200px">
-              <label>${game.i18n.localize('BITD.Stress')}:</label>
+              <label>${game.i18n.localize('RITS.Edge')}:</label>
               <select style="width:100px;float:right" id="stress" name="stress">
                 ${Array(11).fill().map((item, i) => `<option value="${i}">${i}</option>`).join('')}
               </select>
