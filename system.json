@@ -139,6 +139,13 @@
       "type": "Item"
     },
     {
+      "name": "hunting_grounds",
+      "label": "Fixers",
+      "system": "runners-in-the-shadows",
+      "path": "./packs/fixers",
+      "type": "Item"
+    },
+    {
       "name": "npc",
       "label": "NPCs",
       "system": "runners-in-the-shadows",
@@ -155,7 +162,7 @@
     {
       "name": "Crew Options",
       "sorting": "m",
-      "packs": ["crew_type", "crew_ability", "crew_upgrade", "prison", "crew_reputation"]
+      "packs": ["crew_type", "crew_ability", "crew_upgrade", "prison", "crew_reputation", "hunting_grounds"]
 	},
     {
       "name": "Factions & NPCs",
