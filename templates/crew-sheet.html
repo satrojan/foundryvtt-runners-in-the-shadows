@@ -72,6 +72,25 @@
     </div>
   </section>
 
+  <section class="flex-horizontal">
+    <div class="meeting-ground flex-horizontal">
+	    <div class="meeting-ground-label">
+		    <a class="item-add-popup" data-item-type="meeting_grounds">{{localize system.meeting_grounds_label}}</a>
+		  </div>
+		  {{#each items as |item id|}}
+        {{#if (eq item.type "meeting_grounds")}}
+          <div class="item flex-horizontal" data-item-id="{{item._id}}">
+            <div class="item-body item-sheet-open flex-horizontal">
+              <img src="{{item.img}}" title="{{item.name}}" width="20" height="20"/>
+              <div class="item-name">{{item.name}}</div>
+            </div>
+            <a class="item-control item-delete" title="{{localize 'BITD.TitleDeleteItem'}}"><i class="fas fa-trash"></i></a>
+            <a class="item-control item-post" title="{{localize 'BITD.TitlePostItem'}}"><i class="fas fa-comment"></i></a>
+          </div>
+        {{/if}}
+        {{/each}}
+	  </div>
+  </section>
 
   <section class="flex-horizontal">
     <div id="crew-{{_id}}-reputation" class="crew-reputation">

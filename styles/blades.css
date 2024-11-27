@@ -1115,6 +1115,20 @@
   font-family: "Crimson Text", serif;
   font-weight: bold;
 }
+.runners-in-the-shadows.crew.sheet .meeting-ground {
+  width: 600px;
+  height: 50px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.runners-in-the-shadows.crew.sheet .meeting-ground-label a {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 130px;
+}
 .runners-in-the-shadows.crew.sheet .class-name .big-name {
   font-weight: bold;
   font-family: Kirsty, serif;

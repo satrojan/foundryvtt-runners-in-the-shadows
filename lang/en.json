@@ -15,6 +15,7 @@
   "TYPES.Item.crew_upgrade": "Crew Upgrade",
   "TYPES.Item.crew_ability": "Crew Ability",
   "TYPES.Item.hunting_grounds": "Hunting Grounds",
+  "TYPES.Item.meeting_grounds": "Meeting Grounds",
   "TYPES.Item.prison": "Prison",
   "TYPES.Item.faction": "Faction",
   "TYPES.Item.cohort": "Cohort",
@@ -313,6 +314,7 @@
   
   "RITS.SafeHouse": "SafeHouse",
   "RITS.Fixer": "Fixer",
+  "RITS.MeetingGrounds": "Meeting Grounds",
   "RITS.Nuyen": "Nuyen",
   
   "RITS.Acquaintances": "Acquaintances",
