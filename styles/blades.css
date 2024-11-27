@@ -1116,11 +1116,14 @@
   font-weight: bold;
 }
 .runners-in-the-shadows.crew.sheet .meeting-ground {
-  width: 600px;
   height: 50px;
   padding-top: 10px;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
+.runners-in-the-shadows.crew.sheet .meeting-ground > * {
+  margin-right: 10px;
+}
+
 .runners-in-the-shadows.crew.sheet .meeting-ground-label a {
   display: block;
   margin-top: 4px;
