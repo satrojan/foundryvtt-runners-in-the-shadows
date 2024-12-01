@@ -5,6 +5,7 @@
     "alias": "",
     "look": "",
     "heritage": "",
+    "lineage": "",
     "background": "",
     "background-details": "",
     "vice": "",
@@ -209,7 +210,7 @@
     }
   },
   "Item": {
-    "types": ["faction", "item", "class", "ability", "heritage", "background", "vice", "hunting_grounds", "meeting_grounds", "crew_upgrade", "cohort", "crew_type", "crew_reputation", "crew_upgrade", "crew_ability", "prison"],
+    "types": ["faction", "item", "class", "ability", "heritage", "lineage", "background", "vice", "hunting_grounds", "meeting_grounds", "crew_upgrade", "cohort", "crew_type", "crew_reputation", "crew_upgrade", "crew_ability", "prison"],
     "templates": {
       "default": {
         "description": ""
@@ -322,6 +323,9 @@
     "templates": ["ability", "logic", "activatedEffect"]
   },
   "heritage": {
+    "templates": ["default", "activatedEffect"]
+  },
+  "lineage": {
     "templates": ["default", "activatedEffect"]
   },
   "background": {

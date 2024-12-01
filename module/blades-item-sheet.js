@@ -23,7 +23,7 @@ export class BladesItemSheet extends ItemSheet {
   /** @override */
   get template() {
     const path = "systems/runners-in-the-shadows/templates/items";
-    let simple_item_types = ["background", "heritage", "vice", "crew_reputation"];
+    let simple_item_types = ["background", "heritage", "lineage", "vice", "crew_reputation"];
     let template_name = `${this.item.type}`;
 
     if (simple_item_types.indexOf(this.item.type) >= 0) {

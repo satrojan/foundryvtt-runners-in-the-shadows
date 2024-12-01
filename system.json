@@ -77,6 +77,13 @@
       "type": "Item"
     },
     {
+      "name": "lineage",
+      "label": "Lineages",
+      "system": "runners-in-the-shadows",
+      "path": "./packs/magical_lineages.db",
+      "type": "Item"
+    },
+    {
       "name": "vice",
       "label": "Vices",
       "system": "runners-in-the-shadows",
@@ -165,7 +172,7 @@
     {
       "name": "Character Options",
       "sorting": "m",
-      "packs": ["class", "ability", "item", "background", "heritage", "vice"]
+      "packs": ["class", "ability", "item", "background", "heritage", "lineage", "vice"]
 	},
     {
       "name": "Crew Options",

@@ -8,6 +8,7 @@
   "TYPES.Item.class": "Class",
   "TYPES.Item.ability": "Ability",
   "TYPES.Item.heritage": "Heritage",
+  "TYPES.Item.lineage": "Lineage",
   "TYPES.Item.background": "Background",
   "TYPES.Item.vice": "Vice",
   "TYPES.Item.crew_type": "Crew Type",
@@ -316,6 +317,7 @@
   "RITS.Fixer": "Fixer",
   "RITS.MeetingGrounds": "Meeting Grounds",
   "RITS.Nuyen": "Nuyen",
+  "RITS.Lineage": "Lineage",
   
   "RITS.Acquaintances": "Acquaintances",
   "RITS.DangerousFriends": "Dangerous Friends",
