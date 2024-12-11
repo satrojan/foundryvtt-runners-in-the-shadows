@@ -221,7 +221,7 @@
 
     <div class="flex-vertical">
 	  <div class="flex-horizontal">
-        <div id="crew-{{_id}}-class" class="class-name crew-class flex-vertical" data-tooltip="{{localize "BITD.CrewTypeBox"}}" data-distinct="true" data-item-type="crew_type">
+        <div id="crew-{{_id}}-class" class="class-name crew-class flex-vertical" data-tooltip="{{localize "BITD.CrewTypeBox"}}" data-tooltip-class="tooltipdisplay" data-distinct="true" data-item-type="crew_type">
           {{#each items as |item id|}}
           {{#if (eq item.type "crew_type")}}
           <div class="big-name">{{item.name}}</div>
@@ -236,7 +236,7 @@
 		{{#each items as |item id|}}
         {{#if (eq item.type "hunting_grounds")}}
           <div class="item flex-horizontal" data-item-id="{{item._id}}">
-            <div class="item-body item-sheet-open flex-horizontal">
+            <div class="item-body item-sheet-oex-horizontal">
               <img src="{{item.img}}" title="{{item.name}}" width="20" height="20"/>
               <div class="item-name">{{item.name}}</div>
             </div>
@@ -445,3 +445,4 @@
 
 
 </form>
+pen fl
