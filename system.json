@@ -15,7 +15,8 @@
     { "name": "drewg13" },
     { "name": "justinross" },
     { "name": "Dez384" },
-	{ "name": "satrojan" }
+	{ "name": "satrojan" },
+  { "name": "nic_ttrpg" }
   ],
   "esmodules": [
     "module/blades.js"
@@ -73,6 +74,13 @@
       "label": "Heritages",
       "system": "runners-in-the-shadows",
       "path": "./packs/heritages.db",
+      "type": "Item"
+    },
+    {
+      "name": "lineage",
+      "label": "Lineages",
+      "system": "runners-in-the-shadows",
+      "path": "./packs/magical_lineages.db",
       "type": "Item"
     },
     {
@@ -139,6 +147,20 @@
       "type": "Item"
     },
     {
+      "name": "hunting_grounds",
+      "label": "Fixers",
+      "system": "runners-in-the-shadows",
+      "path": "./packs/fixers",
+      "type": "Item"
+    },
+    {
+      "name": "meeting_grounds",
+      "label": "Meeting Grounds",
+      "system": "runners-in-the-shadows",
+      "path": "./packs/meeting_ground",
+      "type": "Item"
+    },
+    {
       "name": "npc",
       "label": "NPCs",
       "system": "runners-in-the-shadows",
@@ -150,12 +172,12 @@
     {
       "name": "Character Options",
       "sorting": "m",
-      "packs": ["class", "ability", "item", "background", "heritage", "vice"]
+      "packs": ["class", "ability", "item", "background", "heritage", "lineage", "vice"]
 	},
     {
       "name": "Crew Options",
       "sorting": "m",
-      "packs": ["crew_type", "crew_ability", "crew_upgrade", "prison", "crew_reputation"]
+      "packs": ["crew_type", "crew_ability", "crew_upgrade", "prison", "crew_reputation", "hunting_grounds", "meeting_grounds"]
 	},
     {
       "name": "Factions & NPCs",
