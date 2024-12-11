@@ -156,21 +156,18 @@ export class BladesActor extends Actor {
           label: game.i18n.localize('BITD.Roll'),
           callback: async (html) => {
             let modifier = parseInt(html.find('[name="mod"]')[0].value);
-            let position = html.find('[name="pos"]')[0].value;
-            let effect = html.find('[name="fx"]')[0].value;
             let note = html.find('[name="note"]')[0].value;
             let action_dice_amount = this.getRollData().dice_amount[attribute_name] + modifier;
             let vice_dice_amount = this.getRollData().dice_amount['BITD.Vice'] + modifier;
             let stress = parseInt(this.system.stress.value);
-            let engagement_dice_amount = Number(html.find('[name="qty"]')[0].value);
-            let tier = html.find('[name="tier"]')[0].value;
-            let asset_dice_amount = parseInt(tier) + modifier;
             if (BladesHelpers.isAttributeAction(attribute_name)) {
               let input = html.find("input");
               for (let i = 0; i < input.length; i++){
                 if (input[i].checked) {
                   switch (input[i].id) {
                     case 'actionRoll':
+                      let position = html.find('[name="pos"]')[0].value;
+                      let effect = html.find('[name="fx"]')[0].value;
                       await this.rollAttribute(attribute_name, modifier, position, effect, note);
                       break;
                     case 'fortune':
@@ -183,9 +180,12 @@ export class BladesActor extends Actor {
                       await bladesRoll(vice_dice_amount,"BITD.Vice","","",note,stress);
                       break;
                     case 'engagement':
+                      let engagement_dice_amount = Number(html.find('[name="qty"]')[0].value);
                       await bladesRoll(engagement_dice_amount,"BITD.Engagement","","",note,"");
                       break;
                     case 'acqurieAsset':
+                      let tier = html.find('[name="tier"]')[0].value;
+                      let asset_dice_amount = parseInt(tier) + modifier;
                       await bladesRoll(asset_dice_amount,"BITD.AcquireAsset","","",note,"",tier);
                       break;                  
                     default:
@@ -196,7 +196,7 @@ export class BladesActor extends Actor {
                 }
               }
             } else {
-                await this.rollAttribute(attribute_name, modifier, position, effect, note);
+                await this.rollAttribute(attribute_name, modifier,"","", note);
               }
           }
         },
