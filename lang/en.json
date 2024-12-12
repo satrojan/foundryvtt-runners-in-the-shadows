@@ -337,28 +337,42 @@
   "RITS.SkillsIntuition": "Intuition",
   "RITS.SkillsIntuitionShort": "Intuition",
   "RITS.SkillsStalk": "Stalk",
+  "RITS.SkillsStalkDescription": "When you <strong>Stalk</strong>, you carefully track a target. <i>You might follow a target or discover their location. You might arrange an ambush. You might attack with precision shooting from a distance. You could try to bring your guns to bear in a melee (but Fighting might be better).</i>",
   "RITS.SkillsInterface": "Interface",
+  "RITS.SkillsInterfaceDescription": "When you <strong>Interface</strong>, you connect with cyberspace or harness networked devices. <i>You might execute software or understand aspects of information technology. You could try to go online in order to better understand your situation (but Surveying might be better).</i>",
   "RITS.SkillsSurvey": "Survey",
+  "RITS.SkillsSurveyDescription": "When you <strong>Survey</strong>, you observe the situation and anticipate outcomes. <i>You might spot telltale signs of trouble before it happens. You might uncover opportunities or weaknesses. You might detect a person’s motivations or intentions. You could try to spot a good ambush point (but Stalking might be better).</i>",
   "RITS.SkillsEngineer": "Engineer",
+  "RITS.SkillsEngineerDescription": "When you <strong>Engineer</strong>, you tinker with devices and mechanisms. <i>You might create a new gadget or alter an existing item. You might tinker with a drone, retrofit a vehicle, wire explosives, or sequence (open) a maglock. You might disable an alarm or trap. You might turn the ubiquitous technology in the sprawl to your advantage. You could try to use your technical expertise to disrupt a network (but Interfacing might be better).</i>",
   
   "RITS.SkillsBody": "Body",
   "RITS.SkillsBodyShort": "Body",
   "RITS.SkillsFinesse": "Finesse",
+  "RITS.SkillsFinesseDescription": "When you <strong>Finesse</strong>, you employ dexterous manipulation, precise footwork, or subtle misdirection. <i>You might pick someone’s pocket. You might direct a vehicle or control a mount. You might formally duel an opponent with graceful martial arts. You could try to employ those arts in a confusing melee (but Fighting might be better). You could try to pick a lock (but Engineering it might be better).</i>",
   "RITS.SkillsProwl": "Prowl",
+  "RITS.SkillsProwlDescription": "When you <strong>Prowl</strong>, you traverse skillfully and quietly. <i>You might scramble past security or leap over barricades. You might drop down from a rooftop or hide in the shadows. You might attack someone from hiding with a back-stab or stun baton. You could try to waylay a victim in the middle of a pitched battle (but Fighting might be better).</i>",
   "RITS.SkillsFight": "Fight",
+  "RITS.SkillsFightDescription": "When you <strong>Fight</strong>, you entangle a target in close combat so they can’t easily escape. <i>You might brawl or wrestle with them. You might draw a pistol and shove it in someone’s face. You might seize or hold a position in battle. You could engage a martial artist in close combat (but Finessing might be better).</i>",
   "RITS.SkillsWreck": "Wreck",
+  "RITS.SkillsWreckDescription": "When you <strong>Wreck</strong>, you unleash savage force or calculated sabotage. <i>You might smash down a door or wall with a sledgehammer, or lob grenades to do the same. You might employ chaos or sabotage to create a distraction or overcome an obstacle. You could try to overwhelm an enemy with sheer force in battle (but Fighting might be better)</i>",
 
   "RITS.SkillsWillpower": "Willpower",
   "RITS.SkillsWillpowerShort": "Willpower",
   "RITS.SkillsStudy": "Study",
+  "RITS.SkillsStudyDescription": "When you <strong>Study</strong>, you scrutinize details and interpret evidence. <i>You might gather information from articles, newscasts, and archived discussion. You might do research on an esoteric topic. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but Surveying might be better).</i>",
   "RITS.SkillsCommand": "Command",
+  "RITS.SkillsCommandDescription": "When you <strong>Command</strong>, you compel swift obedience with leverage. <i>You might intimidate or threaten to get what you want. You might lead a team in a group action. You could try to order people around to persuade them (but Consorting might be better).</i>",
   "RITS.SkillsConsort": "Consort",
+  "RITS.SkillsConsortDescription": "When you <strong>Consort</strong>, you socialize with friends and contacts. Not necessarily honest. <i>You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm and style. You might make new friends or connect with your heritage or background. You could try to manipulate your friends with social pressure (but Influencing might be better).</i>",
   "RITS.SkillsInfluence": "Influence",
+  "RITS.SkillsInfluenceDescription": "When you <strong>Influence</strong>, you change attitudes with guile, charm, or argument. Not necessarily dishonest. <i>You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).</i>",
 
   "RITS.SkillsMystic": "Mystic",
   "RITS.SkillsMysticShort": "Mystic",
   "RITS.SkillsAssense": "Assense",
-  "RITS.SkillsAttune": "Attune"  
+  "RITS.SkillsAssenseDescription": "When you <strong>Assense</strong>, you open your mind to the astral plane or channel arcane energies through your body. <i>You might communicate with a free spirit or understand aspects of conjuring. You could try to perceive beyond sight (but Surveying might be better).</i>",
+  "RITS.SkillsAttune": "Attune",
+  "RITS.SkillsAttuneDescription": "When you <strong>Attune</strong>, you open your mind to the emergent planes or direct nearby electromagnetic signals through your body. <i>You might communicate with a free sprite or understand aspects of technomancy. You could try to perceive beyond sight (but Surveying might be better).</i>"   
 
   
   

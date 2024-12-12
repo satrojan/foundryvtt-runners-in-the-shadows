@@ -70,22 +70,26 @@
             "engineer": {
               "label": "RITS.SkillsEngineer",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description": "RITS.SkillsEngineerDescription"
             },
             "interface": {
               "label": "RITS.SkillsInterface",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description": "RITS.SkillsInterfaceDescription"
             },
             "stalk": {
               "label": "RITS.SkillsStalk",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsStalkDescription"
             },
             "survey": {
               "label": "RITS.SkillsSurvey",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsSurveyDescription"
             }
           }
         },
@@ -97,22 +101,26 @@
             "fight": {
               "label": "RITS.SkillsFight",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsFightDescription"
             },
             "finesse": {
               "label": "RITS.SkillsFinesse",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsFinesseDescription"
             },
             "prowl": {
               "label": "RITS.SkillsProwl",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsProwlDescription"
             },
             "wreck": {
               "label": "RITS.SkillsWreck",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsWreckDescription"
             }
           }
         },
@@ -124,22 +132,26 @@
             "command": {
               "label": "RITS.SkillsCommand",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsCommandDescription"
             },
             "consort": {
               "label": "RITS.SkillsConsort",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsConsortDescription"
             },
             "influence": {
               "label": "RITS.SkillsInfluence",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsInfluenceDescription"
             },
             "study": {
               "label": "RITS.SkillsStudy",
               "value": 0,
-              "max": 4
+              "max": 4,
+              "description":"RITS.SkillsStudyDescription"
             }
           }
         },
@@ -151,12 +163,14 @@
 				"attune": {
 					"label": "RITS.SkillsAttune",
 					"value": 0,
-					"max": 4
+					"max": 4,
+          "description":"RITS.SkillsAttuneDescription"
 				},
 				"assense":{
 					"label": "RITS.SkillsAssense",
 					"value": 0,
-					"max": 4
+					"max": 4,
+          "description":"RITS.SkillsAssenseDescription"
 				}
 			}
 		}
